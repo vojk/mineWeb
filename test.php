@@ -39,7 +39,7 @@ echo '<header class="header" id="top">';
 echo '<div class="headerFreeSpace"></div>';
 echo '<div class="menu">';
 echo '<ul class="obsahMenu">';
-echo '<li><a class="active" href="index.php">HOME</a></li>';
+echo '<li><a class="active" href="index.html">HOME</a></li>';
 echo '<li onmouseout="closeMenu()" onmouseover="openMenu()"><a class="mrTS" href="#home">O UNREAL';
 echo 'ENGINE</a></li>';
 echo '<li><a href="#home">DOKUMENTACE</a></li>';
