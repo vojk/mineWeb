@@ -1,0 +1,27 @@
+.t_lfa{
+    text-align: left;
+}
+
+.t_lra{
+    text-align: right;
+}
+
+.t_lca{
+    text-align: center;
+}
+
+.t_lja{
+    text-align: justify;
+}
+
+.d_centerContentV{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.d_centerContentH{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}

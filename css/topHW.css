@@ -1,0 +1,126 @@
+.topHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
+
+.topHeader .headerUnrealEngine {
+    margin: auto;
+    width: fit-content;
+    display: block;
+}
+
+.topHeader .headerUnrealEngine h1 {
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.topHeader .headerUnrealEngine p {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topHeader .headerUnrealEngine .noteUE {
+    color: white;
+    display: block;
+    margin: 0 0.5rem;
+}
+
+.topHeader .headerUnrealEngine .h3UE {
+    color: white;
+    display: block;
+    align-self: center;
+    margin-bottom: 3vh;
+}
+
+.topHeader .headerUnrealEngine .h3UE h3 {
+    text-align: center;
+}
+
+.h1UE {
+    display: block;
+}
+
+.headerUnrealEngineVerBox {
+    padding: 0 1rem;
+    margin: 8vh 0;
+    display: block;
+}
+
+.headerUnrealEngineVerTextWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.headerUnrealEngineVerContainer {
+    width: 20rem;
+    height: 20rem;
+    background: black;
+    display: block;
+    margin: 1rem auto;
+}
+
+.headerUnrealEngineVerContainer .headerUnrealEngineContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("/imgs/unreal_CVeakBG.png");
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position: center;
+    cursor: pointer;
+    transition: background-size 0.5s;
+}
+
+.UnrealEngineBottomInfoBar{
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(0,0,0,0.46);
+    bottom: 0;
+    display: flex;
+    transition: height 0.5s;
+}
+
+.infoBarP{
+    color: white;
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.infoBarTextDown{
+    visibility:hidden;
+    display: block;
+    opacity: 0;
+    width: 100%;
+    transition: visibility 0.25s, opacity 0.25s;
+    transition-delay: 0s;
+}
+
+.headerUnrealEngineVerContainer:hover .headerUnrealEngineContent {
+    background-size: 23rem;
+}
+
+.headerUnrealEngineVerContainer:hover .UnrealEngineBottomInfoBar {
+    height: 7rem;
+    transition: height 0.5s;
+}
+
+
+
+.headerUnrealEngineVerContainer:hover .infoBarTextDown{
+    visibility:visible;
+    opacity: 1;
+    transition: visibility 0.25s, opacity 0.5s;
+    transition-delay: 0.25s;
+}
+

@@ -1,0 +1,52 @@
+.hwReqOfEngineContainer{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    visibility: hidden;
+}
+
+.hwReqOfEngineWindow{
+    width: 40vw;
+    height: fit-content;
+    background-color: #0a121a;
+    margin: auto;
+    padding: 2.5rem;
+}
+
+.hwReqOfEngine{
+    color: #ececec;
+
+    width: 100%;
+    height: 100%;
+}
+
+.HWheader{
+    display: flex;
+    justify-content: space-between
+}
+
+.HWtable{
+    margin-top: 1rem;
+    display: block;
+}
+
+.HWtable table{
+    width:100%;
+    font-size: 1rem;
+}
+
+.HWtable table th,td{
+    text-align: left;
+    font-size: 1.05rem;
+}
+
+.HWtable tr{
+    display: table-header-group;
+    margin: 0.5rem 0;
+    border-bottom: white solid 2px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/styleHeader.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="/js/menu.js"></script>
+</head>
+<body>
+<section>
+    <header class="header">
+        <div style="display: flex; align-content: center; width: 100%; justify-content: center; color: white;" onclick="openCloseMenu()">
+            <div style="font-size: 3rem;">
+                <span>
+                   =
+                </span>
+            </div>
+        </div>
+
+        <div class="compMenu_container">
+            <div class="compMenu_containerSize">
+                <div class="compMenu_containerWrapper">
+                    <div style="height: 4rem; background: rebeccapurple; display: flex; justify-content: center; align-content: center; align-items: center;">
+                        <div>
+
+                        </div>
+                        <div onclick="openCloseMenu()">
+                            <span>
+                                X
+                            </span>
+                        </div>
+                    </div>
+                    <div style="height: fit-content; margin: 1rem 1.5rem; display: block;">
+                        <ul style="color: white; list-style: none; display: block">
+                            <li class="compMenu_DivItem" style="display: block;">
+                                <div class="compMenu_DivItemCont">
+                                    <a href="header.html">
+                                        Menu1
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="compMenu_DivItem" onclick="openCloseMenuDrop()" style="display: block;">
+                                <div class="compMenu_DivItemCont">
+                                    <a>
+                                        Menu1
+                                    </a>
+                                </div>
+
+                            </li>
+                            <li style="display: block;">
+                                <div class="compMenu_DivDropCont" id="dropMenuConentent_comp">
+                                    <ul style="list-style: none">
+                                        <li class="compMenu_DivItem" style="display: block;"><a href="header.html">ItemDrop</a></li>
+                                        <li class="compMenu_DivItem" style="display: block;"><a href="header.html">ItemDrop</a></li>
+                                        <li class="compMenu_DivItem" style="display: block;"><a href="header.html">ItemDrop</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="compMenu_DivItem" style="display: block;">
+                                <div class="compMenu_DivItemCont">
+                                    <a href="header.html">
+                                        Menu1
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+
+
+</body>
+</html>

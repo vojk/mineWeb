@@ -1,0 +1,62 @@
+.bottomPart {
+    background-color: #0d1015;
+    display: block;
+    height: 35vh;
+    color: #ececec;
+}
+
+.bottomPart .mainContentCointeiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    min-height: 0;
+    height: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.bottomPartContent {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    align-content: center;
+}
+
+.bottomPartContainerLinks div {
+    margin: 0.5rem 0;
+}
+
+.bottomPartContainerLinksCon svg, p {
+    display: inline-block;
+}
+
+.bottomPartContainerLinksCon div {
+    display: block;
+}
+
+.bottomPartContainerLinksCon a {
+    text-decoration: none;
+    color: #ececec;
+    width: 1rem;
+}
+
+.bottomPartContainerLinksCon a:hover {
+    color: #ececec;
+    width: 1.25rem;
+}
+
+.bottomPartNextToLinkstext {
+    display: inline-block;
+    width: 60%;
+    align-self: center;
+}
+
+.bottomPartContainerTextWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomPartContainerText{
+    margin: 0 1rem;
+}

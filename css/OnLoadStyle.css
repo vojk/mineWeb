@@ -1,0 +1,29 @@
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.h1UE{
+    animation: 1s ease-in 0s 1 opacity;
+}
+
+.noteUE{
+    animation: 1s ease-in 0s 1 opacity;
+}
+
+.headerUnrealEngineVerBox{
+    animation: 1s ease-in 0s 1 slideUp;
+}

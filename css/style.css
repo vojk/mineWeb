@@ -1,0 +1,75 @@
+.mainContentCointeiner {
+    max-width: 960px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Container .mainContentCointeiner{
+    color: #ececec;
+    padding-top: 50px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.Container {
+    width: 100%;
+}
+
+.lomTitle {
+    margin: 0;
+    font-size: 2.1875rem;
+    line-height: 2.625rem;
+}
+
+.content {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.lomOdstavec {
+    font-size: 1.07rem;
+    line-height: 1.63rem;
+    margin: 0.5rem 0;
+}
+
+.lomOdstavec img {
+    width: 100%;
+    vertical-align: top;
+    cursor: help;
+}
+
+.imgContainer {
+    margin-top: 1em;
+    text-align: center;
+    display: block;
+}
+
+.imgComment {
+    display: flex;
+    text-align: left;
+    width: fit-content;
+    font-size: 0.9rem;
+}
+
+.ContainerBack{
+    min-height: 240px;
+    background-color: #0a121a;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContentColor{
+    background: rgba(10,18,26,0.2);
+}
+
+.mainContainer{
+    display: block;
+    background-image: url("https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/RayTracing/RayTracingBanner_hero.png");
+    background-repeat: no-repeat;
+}

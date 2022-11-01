@@ -1,0 +1,175 @@
+.sectionObsah-fixed {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: fixed;
+    white-space: nowrap;
+}
+
+.sectionObsah-static {
+    position: static;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+
+.sectionObsah-app{
+    width: 100%;
+    display: flex;
+    z-index: 1100;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+#navScroll{
+    overflow-x:auto;
+    overflow-y:hidden;
+    scrollbar-width: thin;
+}
+
+.fullObsah{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    background: #182636;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.NavBar_GridEs{
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.NavBar_Gridl {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1456px;
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.NavBar_Conteiner{
+    width: max-content;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    height: 4px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 5px;               /* width of vertical scrollbar */
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: #626262;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+    background: #626262;
+    border-radius: 10px;
+}
+
+
+.NavBar_Conteiner a{
+    padding: 17px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 7px 0;
+    vertical-align: top;
+    transition: color 0.2s;
+}
+
+.NavBar_Conteiner a:hover{
+    color: rgb(107, 166, 255);
+}
+
+.border_NavBar_item{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transform: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.border_NavBar_item_SP{
+    font-weight: 1000;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    color: inherit;
+    text-align: center;
+}
+
+.border_NavBar_item_SP_Num{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    padding: 0 8px 0 0;
+    color: rgb(219, 222, 227);
+    text-align: center;
+}
+
+.border_NavBar_item_SP_Obsah{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: inherit;
+    text-align: center;
+}
+
+.GoToUpContainer{
+    display: none;
+    width: 96px;
+    border-right: gray 1px solid;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.GoToUpContainer a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.GoToUpArrow{
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
