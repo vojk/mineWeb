@@ -29,4 +29,19 @@ $(window).scroll(function(e){
 addEventListener('resize', (event) => {
     poziceHeader = headerObsah.offsetTop;
 
+    var $el = $('.sectionObsah-static');
+    var $el2 = $('.GoToUpContainer');
+    poziceHeader = headerObsah.offsetTop;
+    var isPositionFixed = ($el.css('position') === 'fixed');
+
+    if ($(this).scrollTop() > poziceHeader && !isPositionFixed){
+        $el.css({'position': 'fixed', 'top': '0px', 'box-shadow:': '-1px 4px 10px -4px rgba(0,0,0,1)'});
+        $el2.css({'display': 'flex'});
+        //$el3.css({'margin-left': '0'});
+    }
+    if ($(this).scrollTop() < poziceHeader && isPositionFixed){
+        $el.css({'position': 'static', 'top': '0px', 'box-shadow:': '0px 0px 0px 0px rgba(0,0,0,0)'});
+        $el2.css({'display': 'none'});
+    }
+
 });
