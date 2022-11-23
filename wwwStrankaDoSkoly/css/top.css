@@ -1,0 +1,30 @@
+.topHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.topHeader .headerUnrealEngine {
+    margin: auto;
+    width: fit-content;
+    display: block;
+}
+
+.topHeader .headerUnrealEngine h1 {
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.topHeader .headerUnrealEngine p {
+    color: white;
+    text-transform: uppercase;
+}
+
+.topHeader .headerUnrealEngine .noteUE {
+    color: white;
+    display: block;
+    margin: 0 0.5rem;
+}

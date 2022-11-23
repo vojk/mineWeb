@@ -1,0 +1,42 @@
+*{
+    box-sizing: content-box;
+}
+
+a, abbr, address, b, blockquote, cite, code, dd, del, dfn, dl, dt, em, fieldset, h1, h2, h3, h4, h5, h6, hr, i, ins, label, legend, li, ol, p, pre, q, samp, small, strong, sub, sup, ul {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /*font-size: 100%;*/
+    vertical-align: baseline;
+    word-break: break-word;
+}
+
+article, aside, audio, body, canvas, caption, details, div, figure, footer, header, hgroup, html, iframe, img, mark, menu, nav, object, section, span, summary, table, tbody, td, tfoot, thead, tr, video {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    background-color: #0d1015;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.e_S {
+    position: absolute;
+    left: -312.5rem;
+    top: -312.5rem;
+}
+
+.h_fit{
+    height: fit-content;
+}
+

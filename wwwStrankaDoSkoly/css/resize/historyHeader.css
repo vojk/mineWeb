@@ -1,0 +1,11 @@
+@media screen and (max-width: 1300px) {
+    .NavBar_Gridl{
+        margin-left: 15rem;
+    }
+
+    .GoToUpContainer{
+        height: inherit;
+        position: fixed;
+        background: #182636;
+    }
+}
